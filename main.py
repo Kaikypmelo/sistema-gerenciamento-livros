@@ -11,7 +11,9 @@ def exibir_menu():
 
 def main():
     # Coleção para armazenar as instâncias dos objetos
-    biblioteca = []
+    biblioteca = [Livro("Python Fluente", "Programação", "Luciano Ramalho", "Disponível"),
+        Livro("Arquitetura Limpa", "Arquitetura de Software", "Robert C. Martin", "Emprestado"),
+        Livro("Manual de DevOps", "Infraestrutura e Operações", "Gene Kim", "Disponível")]
 
     while True:
         opcao = exibir_menu()
